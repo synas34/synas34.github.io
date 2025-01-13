@@ -1,0 +1,16 @@
+# Define where gems should be sourced from
+source "https://rubygems.org"
+
+# Specify the Jekyll gem
+gem "jekyll", "~> 4.3.0"
+
+# Add GitHub Pages gem for GitHub Pages compatibility
+gem "github-pages", group: :jekyll_plugins
+
+# Additional plugins (optional)
+gem "jekyll-seo-tag", "~> 2.8"
+gem "jekyll-sitemap", "~> 1.4"
+gem "jekyll-feed", "~> 0.15"
+
+# Uncomment below if using bundler for deployment
+# gem "bundler", "~> 2.4"

@@ -8,20 +8,20 @@ body{
     margin: 0 5% 0 auto;
 }
 
-.header-container {
+/* Header Styling */
+header {
+    background: repeating-linear-gradient(-45deg, #f5f5f5, #f5f5f5 10px, #ffffff 10px, #ffffff 20px);
+    padding: 15px 40px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
 }
 
-.header-divider {
-    width: 100%;
-    height: 2px;
-    background-color: black;
-    margin-bottom: 10px;
+nav {
+    display: flex;
+    gap: 25px;
 }
-
 /* Centers all images */
 img {
     display: block;
@@ -87,11 +87,20 @@ hr {
 
 /* Links */
 nav a {
-    color: #2e2b26; /* Keeps it a rich, readable black */
-    text-decoration: none;
+    color: #2e2b26;
+    text-decoration: underline;
 }
 
 nav a:hover {
-    color: black; /* Slight darkening effect */
+    color: black;
     text-decoration: underline;
+}
+
+a {
+    color: #2e2b26;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
 }

@@ -87,6 +87,7 @@ hr {
 /* Links */
 nav a {
     color: #2e2b26;
+    text-decoration: none;
 }
 
 nav a:hover {

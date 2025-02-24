@@ -73,3 +73,13 @@ hr {
     color: #000;
     text-decoration: underline;
 }
+
+/* Links */
+nav ul li a {
+    color: #2e2b26; /* Keeps it a rich, readable black */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: black; /* Slight darkening effect */
+}

@@ -12,7 +12,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    max-width: 800px;
     margin: auto;
 }
 
@@ -22,6 +21,7 @@ body{
     background-color: black;
     margin-bottom: 10px;
 }
+
 /* Centers all images */
 img {
     display: block;

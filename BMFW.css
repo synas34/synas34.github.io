@@ -9,13 +9,6 @@ body{
     padding: 0;
 }
 
-.header-container {
-    display: flex;
-    width: 100%;
-    max-width: 1200px;
-    justify-content: space-between;
-    align-items: center;
-}
 
 /* Header Styling */
 h1 {
@@ -42,7 +35,7 @@ h3 {
 /* Paragraphs */
 p {
     font-size: 18px;
-    line-height: 2.8;
+    line-height: 2.1;
     margin-bottom: 20px;
 }
 

@@ -103,3 +103,7 @@ a {
 a:hover {
     color: black;
 }
+
+ul.no-bullets {
+  list-style-type: none;
+}

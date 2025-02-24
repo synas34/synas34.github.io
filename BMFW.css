@@ -1,12 +1,105 @@
-body{
-    color: #cdcfd5;
-    background-color: #2b2d30;
-    margin: 40px auto;
-    max-width: 650px;
-    line-height: 1.6em;
-    font-size: 18px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
     padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
 }
 
+.sidebar {
+    width: 25%;
+    padding: 40px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+}
 
+.sidebar h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
 
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: #000;
+}
+
+.sidebar .inactive {
+    color: #aaa;
+    cursor: default;
+}
+
+.content {
+    width: 75%;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-img {
+    width: 350px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+.text-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 900px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .text-content {
+        max-width: 100%;
+        padding: 20px;
+    }
+}

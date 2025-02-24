@@ -1,5 +1,5 @@
 body{
-    font-family: 'Futura Std Book', sans-serif; /* Classic, book-style font similar to the image */
+    font-family: 'Charter', serif; /* Classic, book-style font similar to the image */
     color: #2e2b26;
     background-color: #fbe8df; /* Light beige background */
     line-height: 1.6em;
@@ -30,7 +30,7 @@ img {
 
 /* Header Styling */
 h1 {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Futura Std Book', sans-serif;
     font-size: 32px;
     font-weight: 700;
 }

@@ -9,6 +9,13 @@ body{
     padding: 0;
 }
 
+.header-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* Header Styling */
 h1 {

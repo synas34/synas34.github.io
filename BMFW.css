@@ -31,20 +31,20 @@ img {
 /* Header Styling */
 h1 {
     font-family: 'Futura Std Book', sans-serif;
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 700;
 }
 
 h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
+    font-family: 'Futura Std Book', serif;
+    font-size: 32px;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
 h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
 }
